@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header h1,
+header,
 section h2 {
     font-family: 'Bungee', cursive;
     
@@ -20,10 +20,15 @@ header {
     color: #ecf0ec;
 }
 
+header h1,
+section h2{
+    font-weight: normal;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -50,6 +55,7 @@ section .container {
 
 .marcas li {
     display: inline;
+    margin-right: 8px;
 }
 
 section .container {
@@ -62,6 +68,7 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+    color: #182c61;
 }
 
 section p {
